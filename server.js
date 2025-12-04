@@ -5,9 +5,6 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-// Enable CORS for all routes
-app.use(cors());
-
 const PORT = process.env.PORT || 4000;
 
 // Start the server
